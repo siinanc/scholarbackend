@@ -1,0 +1,339 @@
+﻿[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< com.scholartrack:backend >----------------------
+[INFO] Building scholarship-platform-backend 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ backend ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ backend ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 12 source files with javac [debug release 17] to target\classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/controller/ScholarshipController.java:[33,60] cannot find symbol
+  symbol:   method getTitle()
+  location: variable scholarshipDetails of type com.scholartrack.backend.model.Scholarship
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/controller/ScholarshipController.java:[34,66] cannot find symbol
+  symbol:   method getDescription()
+  location: variable scholarshipDetails of type com.scholartrack.backend.model.Scholarship
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/controller/ScholarshipController.java:[35,61] cannot find symbol
+  symbol:   method getAmount()
+  location: variable scholarshipDetails of type com.scholartrack.backend.model.Scholarship
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/controller/ScholarshipController.java:[36,63] cannot find symbol
+  symbol:   method getDeadline()
+  location: variable scholarshipDetails of type com.scholartrack.backend.model.Scholarship
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/controller/ScholarshipController.java:[37,63] cannot find symbol
+  symbol:   method getCategory()
+  location: variable scholarshipDetails of type com.scholartrack.backend.model.Scholarship
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/controller/ScholarshipController.java:[38,61] cannot find symbol
+  symbol:   method getStatus()
+  location: variable scholarshipDetails of type com.scholartrack.backend.model.Scholarship
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/controller/AuthController.java:[37,44] cannot find symbol
+  symbol:   method getEmail()
+  location: variable user of type com.scholartrack.backend.model.User
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/controller/AuthController.java:[40,43] cannot find symbol
+  symbol:   method getPassword()
+  location: variable user of type com.scholartrack.backend.model.User
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/controller/AuthController.java:[42,58] cannot find symbol
+  symbol:   method getName()
+  location: variable saved of type com.scholartrack.backend.model.User
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/controller/AuthController.java:[42,83] cannot find symbol
+  symbol:   method getEmail()
+  location: variable saved of type com.scholartrack.backend.model.User
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/controller/AuthController.java:[42,112] cannot find symbol
+  symbol:   method getRole()
+  location: variable saved of type com.scholartrack.backend.model.User
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/controller/AuthController.java:[43,13] cannot find symbol
+  symbol:   method setPassword(<nulltype>)
+  location: variable user of type com.scholartrack.backend.model.User
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/controller/AuthController.java:[49,51] cannot find symbol
+  symbol:   method getEmail()
+  location: variable loginReq of type com.scholartrack.backend.model.User
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/controller/AuthController.java:[50,74] cannot find symbol
+  symbol:   method getPassword()
+  location: variable loginReq of type com.scholartrack.backend.model.User
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/controller/AuthController.java:[63,38] cannot find symbol
+  symbol:   method getCaste()
+  location: variable profileData of type com.scholartrack.backend.model.User
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/controller/AuthController.java:[64,43] cannot find symbol
+  symbol:   method getSchoolName()
+  location: variable profileData of type com.scholartrack.backend.model.User
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/controller/AuthController.java:[65,40] cannot find symbol
+  symbol:   method getAddress()
+  location: variable profileData of type com.scholartrack.backend.model.User
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/controller/AuthController.java:[66,37] cannot find symbol
+  symbol:   method getCgpa()
+  location: variable profileData of type com.scholartrack.backend.model.User
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/controller/AuthController.java:[67,50] cannot find symbol
+  symbol:   method getBankAccountNumber()
+  location: variable profileData of type com.scholartrack.backend.model.User
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/controller/AuthController.java:[68,46] cannot find symbol
+  symbol:   method getIdProofBase64()
+  location: variable profileData of type com.scholartrack.backend.model.User
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/controller/AuthController.java:[70,18] cannot find symbol
+  symbol:   method setPassword(<nulltype>)
+  location: variable saved of type com.scholartrack.backend.model.User
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/controller/ApplicationController.java:[38,32] cannot find symbol
+  symbol:   method setStatus(java.lang.String)
+  location: variable application of type com.scholartrack.backend.model.Application
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/controller/InternalAdminController.java:[137,43] cannot find symbol
+  symbol:   method getPassword()
+  location: variable user of type com.scholartrack.backend.model.User
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/DataSeeder.java:[39,21] constructor Scholarship in class com.scholartrack.backend.model.Scholarship cannot be applied to given types;
+  required: no arguments
+  found:    <nulltype>,java.lang.String,java.lang.String,int,java.time.LocalDate,java.lang.String,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/DataSeeder.java:[40,21] constructor Scholarship in class com.scholartrack.backend.model.Scholarship cannot be applied to given types;
+  required: no arguments
+  found:    <nulltype>,java.lang.String,java.lang.String,int,java.time.LocalDate,java.lang.String,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/DataSeeder.java:[41,21] constructor Scholarship in class com.scholartrack.backend.model.Scholarship cannot be applied to given types;
+  required: no arguments
+  found:    <nulltype>,java.lang.String,java.lang.String,int,java.time.LocalDate,java.lang.String,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/DataSeeder.java:[42,21] constructor Scholarship in class com.scholartrack.backend.model.Scholarship cannot be applied to given types;
+  required: no arguments
+  found:    <nulltype>,java.lang.String,java.lang.String,int,java.time.LocalDate,java.lang.String,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/DataSeeder.java:[43,21] constructor Scholarship in class com.scholartrack.backend.model.Scholarship cannot be applied to given types;
+  required: no arguments
+  found:    <nulltype>,java.lang.String,java.lang.String,int,java.time.LocalDate,java.lang.String,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/DataSeeder.java:[44,21] constructor Scholarship in class com.scholartrack.backend.model.Scholarship cannot be applied to given types;
+  required: no arguments
+  found:    <nulltype>,java.lang.String,java.lang.String,int,java.time.LocalDate,java.lang.String,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/DataSeeder.java:[45,21] constructor Scholarship in class com.scholartrack.backend.model.Scholarship cannot be applied to given types;
+  required: no arguments
+  found:    <nulltype>,java.lang.String,java.lang.String,int,java.time.LocalDate,java.lang.String,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/DataSeeder.java:[46,21] constructor Scholarship in class com.scholartrack.backend.model.Scholarship cannot be applied to given types;
+  required: no arguments
+  found:    <nulltype>,java.lang.String,java.lang.String,int,java.time.LocalDate,java.lang.String,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/DataSeeder.java:[47,21] constructor Scholarship in class com.scholartrack.backend.model.Scholarship cannot be applied to given types;
+  required: no arguments
+  found:    <nulltype>,java.lang.String,java.lang.String,int,java.time.LocalDate,java.lang.String,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/DataSeeder.java:[48,21] constructor Scholarship in class com.scholartrack.backend.model.Scholarship cannot be applied to given types;
+  required: no arguments
+  found:    <nulltype>,java.lang.String,java.lang.String,int,java.time.LocalDate,java.lang.String,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/DataSeeder.java:[49,21] constructor Scholarship in class com.scholartrack.backend.model.Scholarship cannot be applied to given types;
+  required: no arguments
+  found:    <nulltype>,java.lang.String,java.lang.String,int,java.time.LocalDate,java.lang.String,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/DataSeeder.java:[50,21] constructor Scholarship in class com.scholartrack.backend.model.Scholarship cannot be applied to given types;
+  required: no arguments
+  found:    <nulltype>,java.lang.String,java.lang.String,int,java.time.LocalDate,java.lang.String,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/DataSeeder.java:[51,21] constructor Scholarship in class com.scholartrack.backend.model.Scholarship cannot be applied to given types;
+  required: no arguments
+  found:    <nulltype>,java.lang.String,java.lang.String,int,java.time.LocalDate,java.lang.String,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/DataSeeder.java:[52,21] constructor Scholarship in class com.scholartrack.backend.model.Scholarship cannot be applied to given types;
+  required: no arguments
+  found:    <nulltype>,java.lang.String,java.lang.String,int,java.time.LocalDate,java.lang.String,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/DataSeeder.java:[53,21] constructor Scholarship in class com.scholartrack.backend.model.Scholarship cannot be applied to given types;
+  required: no arguments
+  found:    <nulltype>,java.lang.String,java.lang.String,int,java.time.LocalDate,java.lang.String,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/DataSeeder.java:[54,21] constructor Scholarship in class com.scholartrack.backend.model.Scholarship cannot be applied to given types;
+  required: no arguments
+  found:    <nulltype>,java.lang.String,java.lang.String,int,java.time.LocalDate,java.lang.String,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/DataSeeder.java:[55,21] constructor Scholarship in class com.scholartrack.backend.model.Scholarship cannot be applied to given types;
+  required: no arguments
+  found:    <nulltype>,java.lang.String,java.lang.String,int,java.time.LocalDate,java.lang.String,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/DataSeeder.java:[56,21] constructor Scholarship in class com.scholartrack.backend.model.Scholarship cannot be applied to given types;
+  required: no arguments
+  found:    <nulltype>,java.lang.String,java.lang.String,int,java.time.LocalDate,java.lang.String,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/DataSeeder.java:[57,21] constructor Scholarship in class com.scholartrack.backend.model.Scholarship cannot be applied to given types;
+  required: no arguments
+  found:    <nulltype>,java.lang.String,java.lang.String,int,java.time.LocalDate,java.lang.String,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/DataSeeder.java:[58,21] constructor Scholarship in class com.scholartrack.backend.model.Scholarship cannot be applied to given types;
+  required: no arguments
+  found:    <nulltype>,java.lang.String,java.lang.String,int,java.time.LocalDate,java.lang.String,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/DataSeeder.java:[62,31] constructor User in class com.scholartrack.backend.model.User cannot be applied to given types;
+  required: no arguments
+  found:    <nulltype>,java.lang.String,java.lang.String,java.lang.String,java.lang.String,<nulltype>,<nulltype>,<nulltype>,<nulltype>,<nulltype>,<nulltype>
+  reason: actual and formal argument lists differ in length
+[INFO] 44 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.479 s
+[INFO] Finished at: 2026-04-08T14:58:06+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile (default-compile) on project backend: Compilation failure: Compilation failure: 
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/controller/ScholarshipController.java:[33,60] cannot find symbol
+[ERROR]   symbol:   method getTitle()
+[ERROR]   location: variable scholarshipDetails of type com.scholartrack.backend.model.Scholarship
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/controller/ScholarshipController.java:[34,66] cannot find symbol
+[ERROR]   symbol:   method getDescription()
+[ERROR]   location: variable scholarshipDetails of type com.scholartrack.backend.model.Scholarship
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/controller/ScholarshipController.java:[35,61] cannot find symbol
+[ERROR]   symbol:   method getAmount()
+[ERROR]   location: variable scholarshipDetails of type com.scholartrack.backend.model.Scholarship
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/controller/ScholarshipController.java:[36,63] cannot find symbol
+[ERROR]   symbol:   method getDeadline()
+[ERROR]   location: variable scholarshipDetails of type com.scholartrack.backend.model.Scholarship
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/controller/ScholarshipController.java:[37,63] cannot find symbol
+[ERROR]   symbol:   method getCategory()
+[ERROR]   location: variable scholarshipDetails of type com.scholartrack.backend.model.Scholarship
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/controller/ScholarshipController.java:[38,61] cannot find symbol
+[ERROR]   symbol:   method getStatus()
+[ERROR]   location: variable scholarshipDetails of type com.scholartrack.backend.model.Scholarship
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/controller/AuthController.java:[37,44] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable user of type com.scholartrack.backend.model.User
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/controller/AuthController.java:[40,43] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable user of type com.scholartrack.backend.model.User
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/controller/AuthController.java:[42,58] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable saved of type com.scholartrack.backend.model.User
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/controller/AuthController.java:[42,83] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable saved of type com.scholartrack.backend.model.User
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/controller/AuthController.java:[42,112] cannot find symbol
+[ERROR]   symbol:   method getRole()
+[ERROR]   location: variable saved of type com.scholartrack.backend.model.User
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/controller/AuthController.java:[43,13] cannot find symbol
+[ERROR]   symbol:   method setPassword(<nulltype>)
+[ERROR]   location: variable user of type com.scholartrack.backend.model.User
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/controller/AuthController.java:[49,51] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable loginReq of type com.scholartrack.backend.model.User
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/controller/AuthController.java:[50,74] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable loginReq of type com.scholartrack.backend.model.User
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/controller/AuthController.java:[63,38] cannot find symbol
+[ERROR]   symbol:   method getCaste()
+[ERROR]   location: variable profileData of type com.scholartrack.backend.model.User
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/controller/AuthController.java:[64,43] cannot find symbol
+[ERROR]   symbol:   method getSchoolName()
+[ERROR]   location: variable profileData of type com.scholartrack.backend.model.User
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/controller/AuthController.java:[65,40] cannot find symbol
+[ERROR]   symbol:   method getAddress()
+[ERROR]   location: variable profileData of type com.scholartrack.backend.model.User
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/controller/AuthController.java:[66,37] cannot find symbol
+[ERROR]   symbol:   method getCgpa()
+[ERROR]   location: variable profileData of type com.scholartrack.backend.model.User
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/controller/AuthController.java:[67,50] cannot find symbol
+[ERROR]   symbol:   method getBankAccountNumber()
+[ERROR]   location: variable profileData of type com.scholartrack.backend.model.User
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/controller/AuthController.java:[68,46] cannot find symbol
+[ERROR]   symbol:   method getIdProofBase64()
+[ERROR]   location: variable profileData of type com.scholartrack.backend.model.User
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/controller/AuthController.java:[70,18] cannot find symbol
+[ERROR]   symbol:   method setPassword(<nulltype>)
+[ERROR]   location: variable saved of type com.scholartrack.backend.model.User
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/controller/ApplicationController.java:[38,32] cannot find symbol
+[ERROR]   symbol:   method setStatus(java.lang.String)
+[ERROR]   location: variable application of type com.scholartrack.backend.model.Application
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/controller/InternalAdminController.java:[137,43] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable user of type com.scholartrack.backend.model.User
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/DataSeeder.java:[39,21] constructor Scholarship in class com.scholartrack.backend.model.Scholarship cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    <nulltype>,java.lang.String,java.lang.String,int,java.time.LocalDate,java.lang.String,java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/DataSeeder.java:[40,21] constructor Scholarship in class com.scholartrack.backend.model.Scholarship cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    <nulltype>,java.lang.String,java.lang.String,int,java.time.LocalDate,java.lang.String,java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/DataSeeder.java:[41,21] constructor Scholarship in class com.scholartrack.backend.model.Scholarship cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    <nulltype>,java.lang.String,java.lang.String,int,java.time.LocalDate,java.lang.String,java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/DataSeeder.java:[42,21] constructor Scholarship in class com.scholartrack.backend.model.Scholarship cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    <nulltype>,java.lang.String,java.lang.String,int,java.time.LocalDate,java.lang.String,java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/DataSeeder.java:[43,21] constructor Scholarship in class com.scholartrack.backend.model.Scholarship cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    <nulltype>,java.lang.String,java.lang.String,int,java.time.LocalDate,java.lang.String,java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/DataSeeder.java:[44,21] constructor Scholarship in class com.scholartrack.backend.model.Scholarship cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    <nulltype>,java.lang.String,java.lang.String,int,java.time.LocalDate,java.lang.String,java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/DataSeeder.java:[45,21] constructor Scholarship in class com.scholartrack.backend.model.Scholarship cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    <nulltype>,java.lang.String,java.lang.String,int,java.time.LocalDate,java.lang.String,java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/DataSeeder.java:[46,21] constructor Scholarship in class com.scholartrack.backend.model.Scholarship cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    <nulltype>,java.lang.String,java.lang.String,int,java.time.LocalDate,java.lang.String,java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/DataSeeder.java:[47,21] constructor Scholarship in class com.scholartrack.backend.model.Scholarship cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    <nulltype>,java.lang.String,java.lang.String,int,java.time.LocalDate,java.lang.String,java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/DataSeeder.java:[48,21] constructor Scholarship in class com.scholartrack.backend.model.Scholarship cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    <nulltype>,java.lang.String,java.lang.String,int,java.time.LocalDate,java.lang.String,java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/DataSeeder.java:[49,21] constructor Scholarship in class com.scholartrack.backend.model.Scholarship cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    <nulltype>,java.lang.String,java.lang.String,int,java.time.LocalDate,java.lang.String,java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/DataSeeder.java:[50,21] constructor Scholarship in class com.scholartrack.backend.model.Scholarship cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    <nulltype>,java.lang.String,java.lang.String,int,java.time.LocalDate,java.lang.String,java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/DataSeeder.java:[51,21] constructor Scholarship in class com.scholartrack.backend.model.Scholarship cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    <nulltype>,java.lang.String,java.lang.String,int,java.time.LocalDate,java.lang.String,java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/DataSeeder.java:[52,21] constructor Scholarship in class com.scholartrack.backend.model.Scholarship cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    <nulltype>,java.lang.String,java.lang.String,int,java.time.LocalDate,java.lang.String,java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/DataSeeder.java:[53,21] constructor Scholarship in class com.scholartrack.backend.model.Scholarship cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    <nulltype>,java.lang.String,java.lang.String,int,java.time.LocalDate,java.lang.String,java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/DataSeeder.java:[54,21] constructor Scholarship in class com.scholartrack.backend.model.Scholarship cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    <nulltype>,java.lang.String,java.lang.String,int,java.time.LocalDate,java.lang.String,java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/DataSeeder.java:[55,21] constructor Scholarship in class com.scholartrack.backend.model.Scholarship cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    <nulltype>,java.lang.String,java.lang.String,int,java.time.LocalDate,java.lang.String,java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/DataSeeder.java:[56,21] constructor Scholarship in class com.scholartrack.backend.model.Scholarship cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    <nulltype>,java.lang.String,java.lang.String,int,java.time.LocalDate,java.lang.String,java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/DataSeeder.java:[57,21] constructor Scholarship in class com.scholartrack.backend.model.Scholarship cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    <nulltype>,java.lang.String,java.lang.String,int,java.time.LocalDate,java.lang.String,java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/DataSeeder.java:[58,21] constructor Scholarship in class com.scholartrack.backend.model.Scholarship cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    <nulltype>,java.lang.String,java.lang.String,int,java.time.LocalDate,java.lang.String,java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/Kunhammed Alfa/Downloads/Telegram Desktop/scholarship-platform/backend/src/main/java/com/scholartrack/backend/DataSeeder.java:[62,31] constructor User in class com.scholartrack.backend.model.User cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    <nulltype>,java.lang.String,java.lang.String,java.lang.String,java.lang.String,<nulltype>,<nulltype>,<nulltype>,<nulltype>,<nulltype>,<nulltype>
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
